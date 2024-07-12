@@ -20,9 +20,10 @@ This repository contains a simple email subscription form that submits data to a
 
 
 
-### email received in apps script console
+
+##### `email received in apps script console`
 ![image](https://github.com/user-attachments/assets/611de4c7-0b77-45e8-9fa8-709e28f8abd7)
-### email stored in spreadsheet bucket
+##### `email stored in spreadsheet bucket`
 ![image](https://github.com/user-attachments/assets/b6b64e5b-8d4b-4e57-9d59-501a816a70e3)
 
 ## Features
