@@ -11,10 +11,10 @@
       <h3>Coming Soon</h3>
       <h1>OurBrand New <br />Website Is On It's Way</h1>
       <p>Subscribe for more details</p>
-      <form>
+      <form name="submit-to-google-sheet">
         <input
           type="email"
-          name="email"
+          name="Email"
           placeholder="Your email id"
           id=""
           required
@@ -26,5 +26,17 @@
       <span>Thank You For Subscribing</span>
     </div>
     <script src="scripts.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyWsv3urlsd9-fF6raH_SPf4zwFsJJmJX0JVTUfreFROMzjSfRRUVh8wgQ9gfZ5ZHqmqg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
