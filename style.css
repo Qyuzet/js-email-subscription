@@ -46,15 +46,15 @@ form input {
   height: 70px;
   width: 400px;
   font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.01);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  backdrop-filter: blur(0.8px);
+  backdrop-filter: blur(3px);
 }
 
 form button {
   background: rgba(132, 0, 255, 0.2);
-  backdrop-filter: blur(0.5px);
+  backdrop-filter: blur(2px);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border: none;
@@ -65,7 +65,8 @@ form button {
 }
 
 form button:hover {
-  background: rgba(177, 95, 255, 0.7);
+  background: rgba(132, 0, 255, 0.3);
+  backdrop-filter: blur(2px);
 }
 
 span {
