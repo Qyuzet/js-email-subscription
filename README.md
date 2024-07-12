@@ -14,7 +14,7 @@
 
 ## Overview
 
-This repository contains a simple email subscription form that submits data to a Google Sheet. The form uses JavaScript to handle form submission and integrates with Google Sheets via Google Apps Script.
+This repository contains a simple email subscription form that submits data to a Google Sheet. The form uses JavaScript to handle form submission and integrates with Google Sheets via Google Apps Script [TRY NOW!](https://qyuzet.github.io/js-email-subscription/).
 
 ![image](https://github.com/user-attachments/assets/38d2753e-4c31-4b7d-92ae-42736e21028b)
 
