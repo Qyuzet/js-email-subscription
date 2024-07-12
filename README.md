@@ -16,6 +16,15 @@
 
 This repository contains a simple email subscription form that submits data to a Google Sheet. The form uses JavaScript to handle form submission and integrates with Google Sheets via Google Apps Script.
 
+![image](https://github.com/user-attachments/assets/38d2753e-4c31-4b7d-92ae-42736e21028b)
+
+
+
+### email received in apps script console
+![image](https://github.com/user-attachments/assets/611de4c7-0b77-45e8-9fa8-709e28f8abd7)
+### email stored in spreadsheet bucket
+![image](https://github.com/user-attachments/assets/b6b64e5b-8d4b-4e57-9d59-501a816a70e3)
+
 ## Features
 
 - **Form Submission:** Submits form data to Google Sheets.
